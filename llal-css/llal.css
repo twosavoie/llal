@@ -1,0 +1,136 @@
+/******* BASE *******/
+/******** font-family: 'Overlock', cursive; ********/
+/******** color scheme greige #a5a3a4 black #000000 pale greige #fbfcfd tan #a99d95 ********/
+header, main, footer {
+  font-family: 'Overlock', cursive;
+}
+
+/******* GRID *******/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+header #headline {
+  height: 700px;
+}
+
+main {
+  height: 400px;
+  padding-top: 80px;
+  background: #f3f5f5;
+}
+
+footer {
+  height: 200px;
+  background: #f3f5f5;
+  padding-top: 10px;
+}
+
+/******* HEADER *******/
+header {
+  height: 1000px;
+  background: url('../llal-img/hero.png');
+  background-size: cover;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 120px;
+  color: #841F27;
+}
+
+header h2 {
+  color: #841F27;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: -70px;
+}
+
+header nav {
+  text-indent: -42px;
+  font-style: italic;
+  font-size: 44px;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header p {
+  padding-left: 30px;
+  font-style: italic;
+  font-size: 36px;
+  padding-top: 80px;
+}
+
+
+/******* MAIN ********/
+#info {
+  clear: both;
+}
+
+/****** INFO ********/
+#info h3 {
+  color: #841F27;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#info p {
+  font-size: 18px;
+  width: 350px;
+}
+
+/******** FOOTER CSS ********/
+footer h4 {
+  color: #354E71;
+  clear: both;
+  text-align: center;
+}
+
+footer nav ul li {
+  color: #354E71;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+footer #return {
+  font-size: 20px;
+  text-align: center;
+}
+
+footer nav p a {
+  color: #354E71;
+  text-decoration: none;
+}
+
+footer #credit {
+  color: #354E71;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer #backroom {
+  font-size: 20px;
+  text-align: center;
+}
